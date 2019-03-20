@@ -141,91 +141,110 @@ body {
   max-width: 1000px;
   padding: 20px;
   margin: 20px;
-  border: 1px dashed orange;
+  border: 1px solid black;
 }
-.nav {
+.container .nav {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   margin-top: 30px;
   margin-bottom: 20px;
-  border: 1px dashed orange;
+  color: black;
 }
-.nav-link {
+.container .nav-link {
   margin-left: 15px;
   text-decoration: none;
 }
-.header {
+.container .header {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   margin-top: 30px;
   margin-bottom: 20px;
-  border: 1px dashed orange;
   background-color: gray;
   padding: 20px;
+  color: black;
 }
-.headshot {
+.container .headshot {
   width: 30%;
   margin-bottom: 30px;
 }
-.header-h1 {
-  font-size: 50px;
+.container .header-h1 {
+  font-size: 5rem;
   margin-bottom: 30px;
 }
-.header-text1 {
+.container .header-text1 {
   margin-bottom: 30px;
 }
-.header-text2 {
+.container .header-text2 {
   margin-bottom: 30px;
 }
-.button {
+.container .button {
   margin-bottom: 30px;
   width: 100px;
+  color: white;
+  background-color: gray;
 }
-.middle-info {
+.container .middle-info {
   display: flex;
   margin-top: 30px;
   margin-bottom: 20px;
   flex-direction: row;
-  border: 1px dashed orange;
 }
-.mid-block-1 {
+.container .middle-h2 {
+  margin-bottom: 20px;
+  font-size: 4rem;
+}
+.container .middle-h3 {
+  margin-bottom: 20px;
+  font-size: 3rem;
+}
+.container .mid-block-1 {
   flex-direction: column;
   width: 48%;
 }
-.mid-block-2 {
+.container .mid-block-2 {
   flex-direction: column;
   width: 48%;
 }
-.bottom-info {
+.container li {
+  border: 1px dotted black;
+  padding: 8px;
+}
+.container .bottom-info {
   display: flex;
   flex-direction: column;
-  border: 1px dashed orange;
   margin-top: 30px;
   margin-bottom: 20px;
 }
-.bottom-h2 {
+.container .bottom-h2 {
   margin-top: 30px;
   margin-bottom: 20px;
+  font-size: 4rem;
 }
-.table {
+.container .table {
   border-collapse: collapse;
   width: 100%;
 }
-th {
+.container th {
   border: 1px solid #ddd;
   padding: 8px;
   text-align: left;
 }
-td {
+.container td {
   border: 1px solid #ddd;
   padding: 8px;
   text-align: left;
 }
-.footer {
+.container .footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-top: 30px;
   margin-bottom: 20px;
-  border: 1px dashed orange;
+  height: 100px;
+  background-color: gray;
   text-align: center;
+  color: white;
 }
