@@ -248,3 +248,33 @@ body {
   text-align: center;
   color: white;
 }
+@media (max-width: 600px) {
+  .container .nav {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.6rem;
+  }
+  .container .nav-link {
+    margin-bottom: 30px;
+  }
+  .container .header {
+    align-items: center;
+  }
+  .container .middle-info {
+    flex-direction: column;
+  }
+  .container .mid-block-1 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .container .mid-block-2 {
+    width: 100%;
+  }
+  .container h2,
+  .container h3,
+  .container h1,
+  .container li {
+    text-align: center;
+  }
+}
